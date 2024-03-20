@@ -1,0 +1,223 @@
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-logo{
+    height: 50px;
+    width: 50px;
+
+}
+
+.profile-items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-main-conatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo-text-container{
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.paragraph{
+    font-family: "Roboto";
+    color: #808B96 ;
+    font-size: 15px;
+}
+
+.para-titile{
+    color: #1C2833;
+    font-family: "Roboto";
+}
+
+.profile-image{
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+   
+}
+
+.team-and-createteam-container{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 8px;
+
+
+}
+
+.Teams-container{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.desig-team-text-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.design-team-text{
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.hr-line{
+    color: #808B96 ;
+}
+
+.tx3{
+    margin-bottom: 0px;
+}
+
+.create-team-button-container{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
+
+.create-team-button{
+    border: none;
+    background-color: #ffffff;
+    color:#839192;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.add-folder-button{
+    border: none;
+    background-color: none;
+    background-color: #ffffff;
+}
+
+.folder-text-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.folder-text{
+    color:#839192;
+    font-size: 14px;
+    font-family: "Roboto";
+    padding-top: 5px;
+    font-weight: 500;
+    padding-left: 15px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 98%;
+}
+
+
+
+.add-new-sub{
+    margin: 0px;
+    padding: 0px;
+}
+
+  .folder-icon-button-text-container{
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-toggle:after {
+    content: '\25BE'; /* Unicode character for downward arrow */
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .dropdown.open .dropdown-toggle:after {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    color: #212529;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1;
+    min-width: 200px;
+  }
+  
+  .dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* .all-sidebar-components-container{
+   
+  } */
